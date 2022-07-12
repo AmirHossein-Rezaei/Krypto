@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="KryptoText" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+
+    <style name="KryptoText.CaptionSmall" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="KryptoText.Caption" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="KryptoText.CaptionAlternate" parent="KryptoText">
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="KryptoText.Title" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="KryptoText.TitleAlternate" parent="KryptoText">
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="KryptoText.Body" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="KryptoText.BodyAlternate" parent="KryptoText">
+        <item name="android:textColor">@color/tertiary_text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="KryptoText.BodyTertiary" parent="KryptoText">
+        <item name="android:textColor">@color/tertiary_text_color</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="KryptoText.Body1" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="KryptoText.Body1Alternate" parent="KryptoText">
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="KryptoText.Body2" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="KryptoText.Body3" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="KryptoText.Big" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="KryptoText.Huge" parent="KryptoText">
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textSize">42sp</item>
+    </style>
+</resources>
