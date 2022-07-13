@@ -8,7 +8,7 @@
     <color name="color_primary_dark">#212b40</color>
     <color name="background_color">#212b40</color>
 
-    <color name="primary_text_color">#ffffff</color>
+    <color name="primary_text_color">#D9FFFFFF</color>
     <color name="secondary_text_color">#8c8c8c</color>
 
     <color name="tertiary_text_color">#7e8795</color>

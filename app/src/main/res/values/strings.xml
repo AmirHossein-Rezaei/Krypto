@@ -8,4 +8,8 @@
     <string name="period_3month">3M</string>
     <string name="period_1year">1Y</string>
     <string name="period_all">ALL</string>
+
+    <string name="next">Next</string>
+    <string name="visit_news">Visit the website</string>
+    <string name="more">More</string>
 </resources>

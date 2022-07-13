@@ -52,4 +52,7 @@ dependencies {
 
     //Spark for charts:
     implementation 'com.robinhood.spark:spark:1.2.0'
+
+    //Swipe refresh:
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
 }
