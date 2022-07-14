@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".feature.market.MarketActivity">
 
     <include
         layout="@layout/module_toolbar"
         android:id="@+id/layout_toolbar"/>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
@@ -27,8 +28,8 @@
                 <include layout="@layout/module_news"
                     android:id="@+id/layout_news"/>
 
-                <include layout="@layout/module_cryptos_list"
-                    android:id="@+id/layout_cryptos"/>
+                <include layout="@layout/module_coins_list"
+                    android:id="@+id/layout_coins"/>
 
             </LinearLayout>
 

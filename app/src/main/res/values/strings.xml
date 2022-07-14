@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Krypto</string>
 
-    <string name="period_1h">12H</string>
+    <string name="period_12h">12H</string>
     <string name="period_1day">1D</string>
     <string name="period_1week">1W</string>
     <string name="period_1month">1M</string>

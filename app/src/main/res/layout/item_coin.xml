@@ -31,21 +31,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_dollar"
-        style="@style/KryptoText.Body1Alternate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="USDT"
-        app:layout_constraintStart_toEndOf="@+id/tv_currency_name"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
+        android:id="@+id/tv_change"
         style="@style/KryptoText.Body1Alternate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="4dp"
+        android:maxLength="10"
         android:text="Coinbase"
         app:layout_constraintStart_toEndOf="@+id/img_currency_icon"
         app:layout_constraintTop_toBottomOf="@+id/tv_currency_name" />
@@ -56,9 +48,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="$32.323"
-        app:layout_constraintBottom_toBottomOf="@+id/tv_dollar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tv_dollar" />
+        app:layout_constraintTop_toTopOf="@+id/tv_currency_name" />
 
     <TextView
         style="@style/KryptoText.Body1Alternate"
@@ -66,7 +57,8 @@
         android:id="@+id/tv_marketCap"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="$2.4 million"
+        android:text="$2.4 M"
+        android:maxLength="10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_price" />
 

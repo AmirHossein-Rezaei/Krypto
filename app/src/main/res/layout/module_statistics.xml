@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/KryptoText.BodyAlternate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statistics" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_rounded_all"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/tv_open_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$170.11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_open_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Open"
+            app:layout_constraintStart_toStartOf="@+id/tv_open_amount"
+            app:layout_constraintTop_toBottomOf="@+id/tv_open_amount" />
+
+        <TextView
+            android:id="@+id/tv_highest_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="$172.30"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_open_label" />
+
+        <TextView
+            android:id="@+id/tv_highest_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Today's Highest"
+            app:layout_constraintStart_toStartOf="@+id/tv_highest_amount"
+            app:layout_constraintTop_toBottomOf="@+id/tv_highest_amount" />
+
+        <TextView
+            android:id="@+id/tv_lowest_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="$169.20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_highest_label" />
+
+        <TextView
+            android:id="@+id/tv_lowest_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Today's Lowest"
+            app:layout_constraintStart_toStartOf="@+id/tv_lowest_amount"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lowest_amount" />
+
+        <TextView
+            android:id="@+id/tv_change_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="$177.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lowest_label" />
+
+        <TextView
+            android:id="@+id/tv_change_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Today's Change"
+            app:layout_constraintStart_toStartOf="@+id/tv_change_amount"
+            app:layout_constraintTop_toBottomOf="@+id/tv_change_amount" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/tv_volume_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12M"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_volume_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Volume"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_volume_amount" />
+
+        <TextView
+            android:id="@+id/tv_avg_volume_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="27M"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_volume_label" />
+
+        <TextView
+            android:id="@+id/tv_avg_volume_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Average Volume"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_avg_volume_amount" />
+
+        <TextView
+            android:id="@+id/tv_market_cap_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="$867.34B"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_avg_volume_label" />
+
+        <TextView
+            android:id="@+id/tv_market_cap_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Market Cap"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_market_cap_amount" />
+
+        <TextView
+            android:id="@+id/tv_supply_amount"
+            style="@style/KryptoText.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="18.433"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_market_cap_label" />
+
+        <TextView
+            android:id="@+id/tv_supply_label"
+            style="@style/KryptoText.TitleAlternate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Supply"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_supply_amount" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
