@@ -75,4 +75,22 @@
         <item name="android:textColor">@color/primary_text_color</item>
         <item name="android:textSize">42sp</item>
     </style>
+
+
+    <style name="KryptoText.link" parent="KryptoText">
+        <item name="android:textColor">@color/blue_link_color</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="MySparkViewStyle" parent="@style/spark_SparkView">
+        <item name="spark_lineColor">@color/color_primary</item>
+        <item name="spark_lineWidth">3dp</item>
+        <item name="spark_cornerRadius">4dp</item>
+        <item name="spark_fill">false</item>
+
+        <item name="spark_baseLineColor">@color/color_primary</item>
+
+        <item name="spark_scrubEnabled">true</item>
+        <item name="spark_animateChanges">true</item>
+    </style>
 </resources>

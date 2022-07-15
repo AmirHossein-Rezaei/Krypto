@@ -16,5 +16,6 @@
         <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/background_color</item>
         <item name="fontFamily">sans-serif-medium</item>
+        <item name="spark_SparkViewStyle">@style/MySparkViewStyle</item>
     </style>
 </resources>

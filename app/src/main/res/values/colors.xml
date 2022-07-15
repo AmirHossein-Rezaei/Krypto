@@ -11,6 +11,7 @@
     <color name="primary_text_color">#D9FFFFFF</color>
     <color name="secondary_text_color">#8c8c8c</color>
 
+    <color name="blue_link_color">#64B5F6</color>
     <color name="tertiary_text_color">#7e8795</color>
     <color name="color_primary_dusk">#3c4862</color>
     <color name="color_loss">#f0655e</color>

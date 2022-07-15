@@ -17,7 +17,7 @@
         android:theme="@style/Theme.Krypto"
         tools:targetApi="31">
         <activity
-            android:name=".feature.DetailsActivity"
+            android:name=".feature.details.DetailsActivity"
             android:exported="false" />
         <activity
             android:name=".feature.market.MarketActivity"

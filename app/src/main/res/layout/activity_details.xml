@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feature.DetailsActivity">
+    tools:context=".feature.details.DetailsActivity">
 
     <include
         android:id="@+id/layout_toolbar"
         layout="@layout/module_toolbar" />
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_details"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">

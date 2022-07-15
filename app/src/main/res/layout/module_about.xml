@@ -69,7 +69,7 @@
 
         <TextView
             android:id="@+id/tv_website_link"
-            style="@style/KryptoText.Body"
+            style="@style/KryptoText.link"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
@@ -77,14 +77,14 @@
             android:focusable="true"
             android:paddingVertical="16dp"
             android:text="N/A"
+            app:layout_constraintBottom_toBottomOf="@id/tv_website_label"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline3"
-            app:layout_constraintTop_toTopOf="@id/tv_website_label"
-            app:layout_constraintBottom_toBottomOf="@id/tv_website_label"/>
+            app:layout_constraintTop_toTopOf="@id/tv_website_label" />
 
         <TextView
             android:id="@+id/tv_twitter_link"
-            style="@style/KryptoText.Body"
+            style="@style/KryptoText.link"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="?attr/selectableItemBackground"
@@ -92,14 +92,14 @@
             android:focusable="true"
             android:paddingVertical="16dp"
             android:text="N/A"
+            app:layout_constraintBottom_toBottomOf="@id/tv_twitter_label"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline3"
-            app:layout_constraintTop_toTopOf="@id/tv_twitter_label"
-            app:layout_constraintBottom_toBottomOf="@id/tv_twitter_label"/>
+            app:layout_constraintTop_toTopOf="@id/tv_twitter_label" />
 
         <TextView
             android:id="@+id/tv_reddit_link"
-            style="@style/KryptoText.Body"
+            style="@style/KryptoText.link"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="?attr/selectableItemBackground"
@@ -107,14 +107,14 @@
             android:focusable="true"
             android:paddingVertical="16dp"
             android:text="N/A"
+            app:layout_constraintBottom_toBottomOf="@id/tv_reddit_label"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline3"
-            app:layout_constraintTop_toTopOf="@id/tv_reddit_label"
-            app:layout_constraintBottom_toBottomOf="@id/tv_reddit_label"/>
+            app:layout_constraintTop_toTopOf="@id/tv_reddit_label" />
 
         <TextView
             android:id="@+id/tv_github_link"
-            style="@style/KryptoText.Body"
+            style="@style/KryptoText.link"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="?attr/selectableItemBackground"
@@ -138,13 +138,12 @@
             app:layout_constraintTop_toBottomOf="@+id/tv_github_link" />
 
         <TextView
+            android:id="@+id/tv_more_info"
             style="@style/KryptoText.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:ellipsize="end"
-            android:maxLines="7"
-            android:text="more info"
+            android:text="No additional information is available"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/materialDivider2" />

@@ -19,15 +19,13 @@ class CoinAdapter(private val data: ArrayList<CoinsData.Data>, private val coinE
     inner class CoinViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bindViews(coin: CoinsData.Data) {
             binding.tvCurrencyName.text = coin.coinInfo.fullName
-            binding.tvPrice.text = "$" + coin.rAW.uSD.pRICE.toString()
+            binding.tvPrice.text =coin.dISPLAY.uSD.pRICE
 
             // set and changes the text color depending on the price change
-            val change = coin.rAW.uSD.cHANGEPCTHOUR
+            val change = coin.rAW.uSD.cHANGEPCT24HOUR
             setTextForTVChange(change)
 
-            var marketCap = (coin.rAW.uSD.mKTCAP / ONE_BILLION).toString()
-            marketCap = marketCap.substring(0, marketCap.indexOf('.') + 3)
-            binding.tvMarketCap.text = "$$marketCap B"
+            binding.tvMarketCap.text = coin.dISPLAY.uSD.mKTCAP
 
             // set the icon
             Glide.with(itemView)
